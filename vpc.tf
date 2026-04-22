@@ -3,6 +3,6 @@ resource "aws_vpc" "vpc1"{
 	tags={
 	  Name="TestVpc"
 	  Env="Dev"
-	  Owner="HSBC Corp"
+	  Owner="HSBC Corp Ltd"
 	}
 }
