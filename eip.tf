@@ -3,3 +3,5 @@ resource "aws_eip" "nateip"{
 	 Name="NatEIP"
 	}
 }
+  vpc=true
+}
